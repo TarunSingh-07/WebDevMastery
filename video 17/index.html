@@ -1,0 +1,94 @@
+<!--In this video we know about CSS Selectors .-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            /* background-color: red; */
+        }
+
+        /* Class selector */
+        .red {
+            background-color: red;
+        }
+
+        /* Id selector */
+        #green {
+            background-color: green;
+        }
+
+        /* Child selector */
+        div>p {
+            color: brown;
+            background-color: gold;
+        }
+
+        /* Decendant selector */
+        div p {
+            color: blue;
+            /* background-color: blueviolet; */
+        }
+
+        /* Universal selector`- */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selector */
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: green
+        }
+
+        a:active {
+            color: red;
+        }
+
+        a:hover {
+            background-color: yellow;
+        }
+
+        p:first-child {
+            background-color: fuchsi;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>I am the first </p>
+        <p>I am the second </p>
+
+    </main>
+    <div class="red">
+        Hi am a boy
+
+        <p>Hiii what are you doing ?</p>
+
+        <article>
+            <p>hiiii broooo </p>
+        </article>
+
+        <span>
+            <p>Keese hooo bhai</p>
+        </span>
+    </div>
+
+    <div id="green">
+        How are you ?
+    </div>
+    <a href="https://www.Google.com">Go to Google</a>
+    <a href="https://www.Facebook.com">Go to Facebook</a>
+
+</body>
+
+</html>

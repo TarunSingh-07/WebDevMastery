@@ -1,0 +1,53 @@
+<!--Vid = 35 , Here we know about More Css Selectors-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More about CSS selector</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+        /* .box::first-line {
+            background-color: red;
+        } */
+        /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+        [data-color="primary"]{
+            padding-top: 45px;
+        } */
+        /* .box:nth-child(even){
+            background-color: yellow;
+        } */
+        .box:nth-last-child(1){
+            background-color: red;
+        }
+        .boxes::before{
+            content: "Tarun is good";
+        }
+        .boxes::after{
+            content: "His gaming is good";
+        }
+        ::selection{
+            background-color: black;
+            color: aqua;
+        }
+        .box::first-letter{
+            color: rgb(255, 128, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <!-- <img src=""> -->
+        <div  data-color="Primary" class="box">Hii what about you</div>
+        <div class="box">Hii am a Boy</div>
+        <div class="box">Hii How are u </div>
+    </div>
+</body>
+
+</html>

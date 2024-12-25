@@ -1,0 +1,14 @@
+/*classes targeted in css by .(dot)
+And #(hash) targeted id*/
+.red{
+color: red;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+#firstdiv{
+
+    /*background-color: yellow;*/
+}

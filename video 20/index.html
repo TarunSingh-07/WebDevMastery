@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <style>
+        div p:first-child{
+            background-color: yellow;
+            color: red;
+        }
+        p{
+            color: white;
+            background-color: blue;
+        }
+
+        /* It changes the all paragraph of all div coz it is a sibling selector .i.e isko farak nhi padta
+        ki tumne alag alag paragraph me kya change kiya h ye unhe bhi change kar dega  */
+        /* div > p{
+            background-color: aqua;
+            color: brown; 
+        } */
+
+        /* This tag use for select the all paragraph in a program */
+        /* p:first-child{
+            background-color: yellow;
+            color: red;
+        } */
+
+        /* This tags use for if you have Multiple paragraph and you wnt to change every paragraph
+        with diffrent background color and text-color and some other additional changes to this. */
+
+        /* div p:nth-child(2){
+            background-color: aqua;
+            color: beige;
+        }
+        div p:nth-child(3){
+            background-color: chocolate;
+            color: cadetblue;
+        }
+        div p:nth-child(4)
+        {
+            background-color: darkgray;
+            color: aqua;
+        }
+        div p:nth-child(5){
+            background-color: darkgreen;
+            color: darkorchid;
+        }
+        div p:nth-child(6){
+            background-color: black;
+            color: aqua;
+        }
+         */
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Hi am Paragraph 1</p>
+        <p>Hi am Paragraph 2</p>
+        <p>Hi am Paragraph 3</p>
+        <p>Hi am Paragraph 4</p>
+        <p>Hi am Paragraph 5</p>
+    </div>
+    <div>
+        <p>hiii how are you</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!--Vid = 28 , Here in this vid we know about Css Position Property .-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Position</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* if you want to use "z-index" then you have to use position:relative */
+        .box1 {
+            background-color: cadetblue;
+            position: sticky;
+            top: 0px;
+            height: 111px;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            /* position: absolute;
+            top: 0; */
+            /* position: relative;
+            z-index: 1; */
+        }
+
+        .box2 {
+            background-color: blue;
+            /* position: relative; */
+            /* top: -40px;
+            left: 30px; */
+        }
+
+        .box3 {
+            background-color: aquamarine;
+            /* position: fixed;
+            bottom: 0px;
+            left: 25vw; */
+        }
+
+        .box4 {
+            background-color: blueviolet;
+        }
+
+        .box {
+            height: 50vh;
+            width: 50vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid black;
+        }
+        .parent{
+            margin: 43px;
+            padding: 34px;
+            border: 3px solid purple;
+            /* position: absolute; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+
+    </div>
+
+</body>
+
+</html>

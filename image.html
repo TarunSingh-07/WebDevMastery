@@ -1,0 +1,64 @@
+<!--Tut 5 = Here we know about image tag,height,width,table tag(tr(table row),td(table data),th(table header)),
+row span,col span,caption tag,thead,tfoot,tbody,ul list,ol list-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link rel="stylesheet" href="image.css">
+</head>
+
+<body>
+    <img width="230" height="340" src="image1.JPG" alt="My pic">
+    <br>
+    <table>
+        <caption>Student Details</caption>
+
+        <thead>
+            <!-- header content-->
+            <tr>
+                <th>Name</th>
+                <th>Designation</th>
+                <th>fav language</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>Tarun</td>
+                <td>Programmer</td>
+                <td>python</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Kanha</td>
+                <td rowspan="2">java</td>
+            </tr>
+            <tr>
+                <td colspan="2">Kanha</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!--footer-->
+            <tr>
+                <td colspan="2">Dora</td>
+                <td rowspan="2">java script</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <ul type="square">
+        <li>Tarun</li>
+        <li>Kanha</li>
+        <li>Dora</li>
+    </ul>
+    <ol type="A">
+        <li>Tarun</li>
+        <li>Kanha</li>
+        <li>Dora</li>
+    </ol>
+</body>
+</html>

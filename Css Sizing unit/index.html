@@ -1,0 +1,86 @@
+<!--Video 22 = Here we knoww about CSS Sizing-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 616px; */
+            width: 80vw;
+            margin: auto;
+            height: 10vh;
+            background-color: aquamarine;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 616px; */
+            width: 88vw;
+            min-height: 80vh;
+            margin: 23px auto;
+            /* height: 80vh; */
+            font-size: 18px;
+            background-color: aquamarine;
+
+        }
+
+        /* 'em' means the amount of font size it will get by inheriting
+        i.e font-size :18px , 2em means *2 , so the font-size is now 36px */
+        /* 'rem' means root's font-size */
+        .container > div {
+            font-size: 2em;
+            border: 2px solid red;
+            width: 50%;
+        }
+        .container > div > div{
+            border: 2px solid blue;
+        }
+
+        .mycont {
+            box-sizing: border-box;
+            border: 2px solid black;
+            margin: 23px auto;
+            color: black;
+            font-size: 22px;
+            width: 100vmin;
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">This is a Box</div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam consequatur a corrupti
+            voluptas error sapiente odit nostrum deleniti vero quia distinctio ullam voluptatem, molestiae corporis
+            nobis
+            reiciendis! Magni maiores ad vitae molestias recusandae, est eum laudantium corporis, aspernatur quis
+            delectus
+            fugiat cupiditate impedit aliquid, debitis ullam officiis qui a. Voluptatibus, incidunt sequi voluptates
+            dignissimos corporis a!
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, animi natus dolorem unde, iure
+                accusantium exercitationem sit eveniet corrupti at eos architecto sed.</div>
+            </div>
+    </div>
+    <div class="mycont">
+        I am another container.
+    </div>
+</body>
+
+</html>

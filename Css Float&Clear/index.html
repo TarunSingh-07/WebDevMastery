@@ -1,0 +1,64 @@
+<!--Vid = 34 , Here in this video we know about CSS Float & Clear-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+        }
+
+        img {
+            float: right;
+        }
+
+        .card {
+            border: 2px solid red;
+        }
+        /* .card agar apne parent ka 3rd child he toh ye properties use honge. */
+        .card:nth-child(3) {
+            background-color: aqua;
+            clear: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <img src="https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            width="230">
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vel saepe laudantium
+            doloribus cum expedita, placeat nihil dolor ducimus velit?</div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequatur, eum repellat ducimus
+            quia laboriosam quaerat earum deleniti consequuntur esse voluptatem officiis beatae sunt eveniet iusto atque
+            reprehenderit excepturi illum aperiam illo maiores vitae? Fuga distinctio eos quae ad minima neque totam?
+            Minima unde accusamus consequatur saepe iusto nesciunt numquam quaerat! Sunt autem aspernatur quaerat in
+            impedit quae vel sequi beatae, minima fuga, soluta nam pariatur et a dolorem ipsum reiciendis veniam velit
+            fugit ratione tempora necessitatibus eos placeat? Provident, harum necessitatibus natus aliquid assumenda
+            officia pariatur cupiditate dolorem unde voluptas tenetur, dolores beatae explicabo alias quis numquam sint
+            cumque nobis delectus eligendi porro. Earum ullam nihil nemo veniam eaque omnis qui sapiente distinctio. Ea
+            repudiandae, facere commodi ad aliquid culpa obcaecati ducimus aspernatur voluptatibus eius dolor quo quae
+            nihil. Accusamus dolorum adipisci sint eum commodi excepturi repudiandae voluptate debitis quam
+            exercitationem dignissimos similique, rerum iste rem natus necessitatibus? Tempora alias error ut aperiam,
+            illo quas officiis ducimus commodi, ratione dolores similique consectetur quae ipsa temporibus obcaecati ea
+            placeat at illum soluta esse cupiditate reprehenderit unde? Amet recusandae sed facere ab? Explicabo aliquid
+            hic iusto libero temporibus blanditiis dignissimos harum fugiat obcaecati dolorem. Aperiam quia dolores
+            iure, laudantium quod ad similique officia! Amet ab voluptatem dolorem, libero aliquid quidem at id alias
+            cupiditate distinctio, nihil corrupti maiores odio adipisci assumenda est vel aspernatur architecto impedit
+            quos illum. Deserunt quae accusantium quidem molestias quos repellendus sapiente obcaecati vitae nisi,
+            quisquam accusamus tenetur eum. Fuga vitae fugiat dignissimos dolore, ipsum sed temporibus nemo expedita
+            libero modi. Quasi magni impedit odit asperiores sunt vel doloremque culpa nihil doloribus? Esse, iusto,
+            deserunt molestiae aspernatur quasi laboriosam quos ad necessitatibus cupiditate accusamus earum a quis
+            voluptatum culpa qui maiores commodi sapiente consequatur maxime ratione aliquid ullam velit? Nemo nobis
+            culpa pariatur quasi. Voluptates eius assumenda hic, earum labore commodi itaque optio! Fuga at
+            exercitationem repudiandae vitae doloremque modi, provident tenetur alias illo excepturi iusto cupiditate
+            error voluptas asperiores dolores nesciunt officia vel eius consequuntur inventore?</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+
+</html>

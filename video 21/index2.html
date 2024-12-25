@@ -1,0 +1,39 @@
+<!--Here we know about Css specificity-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* Universal selector */
+        *{
+            color: gray;
+        }
+
+/* Id Selector */
+        #title{
+            color: red;
+        }
+
+/* Class Selector */
+            .h1{
+            color: blue;
+        }
+
+/* Attribute Selector */
+        [data-x=a]{
+            color: green;
+        }
+
+/* Element Selector */
+        h1{
+            color: pink;
+        }
+    </style>
+<!-- Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector -->
+</head>
+<body>
+    <h1 id="title" class="h1" data-x="a" style="color:purple">CodeWithHarry</h1>   <!--Inline Selector already use -->
+</body>
+</html>

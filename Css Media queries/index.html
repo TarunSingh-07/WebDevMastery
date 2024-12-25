@@ -1,0 +1,67 @@
+<!--Video = 31 , Here we know about CSS Media Queries .
+1.Media queries is used for making website Responsive-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: red;
+        }
+
+        /* if Height is bigger than width then it is PORTRAIT
+        if Width is bigger than height then it is LANDSCAPE. */
+
+        @media screen and (orientation: portrait) {
+            body {
+                border: 2px solid purple;
+            }
+        }
+
+        @media only screen and (max-width:455px) {
+            body {
+                /* 455px se bada ho geya body ka width toh is ke andar jo style he wo nhi lagega */
+                background-color: blue;
+            }
+
+            .boxes {
+                flex-direction: column;
+            }
+        }
+
+        /* @media screen and (min-width:455px) {
+            body{
+                background-color: blue;
+            }
+        } */
+        
+        .boxes {
+            display: flex;
+        }
+
+        .box {
+            height: 344px;
+            width: 344px;
+            background-color: steelblue;
+            margin: 3px;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        I am a red body guy .
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

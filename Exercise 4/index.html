@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --color: rgb(23, 157, 218);
+            --seccolor: rgb(160, 98, 12);
+            --defpad: 20px;
+            --defmar: 10px;
+            --thicolor: rgb(91, 36, 200);
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* @media screen and (max-width: 455px) {
+        body{
+            background-color: rgb(165, 30, 238);
+        }
+        ul {
+            flex-direction: column;
+        }  */
+    
+       .class{
+        background-color: cadetblue;
+       }
+        ul {
+            display: flex;
+        }
+        ul li{
+            /* margin: var(--defmar); */
+            padding: var(--defpad);
+            list-style: none;
+            color: var(--color);
+            background-color: rgb(96, 227, 70);
+            
+        }
+        ul li:hover{
+            background-color: var(--thicolor);
+            color:var(--seccolor);
+        }
+        ul li:first-child:hover {
+            background-color: var(--thicolor);
+            color: black;
+        }
+        
+        ul li:nth-child(2):hover {
+            background-color: var(--seccolor);
+            color: rgb(0, 0, 0);
+        }
+        ul li:nth-child(3):hover {
+            background-color: var(--color);
+            color: black;
+        }
+        /* ul li:first-child{
+            background-color: rgb(66, 214, 240);
+            padding: var(--defpad);
+            margin: var(--defmar);
+        }
+        ul li:nth-child(2){
+            background-color: rgb(180, 124, 233);
+            padding: var(--defpad);
+            margin: var(--defmar);
+        }
+        ul li:nth-child(3){
+            background-color: rgb(238, 90, 220);
+            padding: var(--defpad);
+            margin: var(--defmar);
+        }
+        ul li:nth-child(4){
+            background-color: rgb(99, 239, 157);
+            padding: var(--defpad);
+            margin: var(--defmar);
+        } */
+
+        .class2{
+            background-color: var(--seccolor);
+        }
+        .class2:hover{
+            background-color: var(--color);
+            color: var(--seccolor);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="class">
+        <ul>
+            <li>Name</li>
+            <li>About</li>
+            <li>Home</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="class2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta hic vero dolore sunt omnis
+        doloribus! Odit dicta tempore aliquid sed.</div>
+</body>
+
+</html>
