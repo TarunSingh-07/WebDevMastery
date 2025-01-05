@@ -5,7 +5,7 @@ color: red;
 }
 
 .bg-yellow{
-    background-color: yellow;
+    background-color: rgb(46, 221, 154);
 }
 
 #firstdiv{
@@ -14,4 +14,15 @@ color: red;
 
 #seconddiv{
     background-color: blueviolet;
+}
+#myHeader{
+    background-color: lightblue;
+    color: rgb(200, 17, 17);
+    padding: 40px;
+    text-align: center;
+}
+.City{
+    background-color: brown;
+    color: turquoise;
+    padding: 10px;
 }
