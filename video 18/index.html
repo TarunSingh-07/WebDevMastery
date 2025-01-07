@@ -38,6 +38,10 @@
             width: 200px;
             box-sizing: border-box;
         }
+        
+        /*The vertical margins between .box1 and .box2 will
+         collapse. Instead of having a combined margin of 40px (20px + 20px),
+          the margin between the two boxes will be 20px, which is the larger of the two margins.*/
     </style>
 </head>
 <body>
@@ -45,3 +49,6 @@
     <div class="box box2">I am another box</div>
 </body>
 </html>
+
+<!-- Margin collapse is a behavior in CSS where the vertical margins
+ of adjacent block-level elements collapse into a single margin -->
