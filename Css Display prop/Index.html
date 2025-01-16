@@ -15,17 +15,6 @@
         /* if your element is inline then padding top & margin top is not working 
         But if you want it at any cost then use "display : inline-block" .*/
 
-        /* inline -->
-        1. Can't set height and width 
-        2. Vertically padding and margins(top & bottom) are not working
-        3. But Horizontal padding and margins are worked .
-
-        inline-block -->
-        1. Can set height and width
-        2. Vertically padding and margins(top & bottom) are working
-        3. Horizontal padding and margins are worked .
-
-        */ 
         .box {
             border: 2px solid black;
             /* display: inline; */
@@ -38,24 +27,37 @@
 
         /* display:none - content chala jayega lekin uski space bhi chala jayega */
         /* visibility : hidden - content chala jayega lekin uski space nahi jayega */
-        
+
         .box1 {
             /* display: none;*/
             /*  visibility: hidden; */
-            
+
         }
-        .inline-box{
+
+        /* inline -->
+        1. Can't set height and width 
+        2. Vertically padding and margins(top & bottom) are not working
+        3. But Horizontal padding and margins are worked .
+
+        inline-block -->
+        1. Can set height and width
+        2. Vertically padding and margins(top & bottom) are working
+        3. Horizontal padding and margins are worked .
+        */
+
+        .inline-box {
             display: inline;
-            border: 2px solid black;    
+            border: 2px solid black;
             padding: 10px;
             margin: 20px;
             background-color: lightgreen;
             width: 150px;
             height: 100px;
         }
-        .inline-block-box{
+
+        .inline-block-box {
             display: inline-block;
-            border: 2px solid black;    
+            border: 2px solid black;
             padding: 10px;
             margin: 20px;
             background-color: lightblue;
