@@ -36,13 +36,32 @@
 
         }
 
-        /* visibility : hidden mean ki wo content hide ho jayega lekin uski 
-        space reh jaegi */
+        /* display:none - content chala jayega lekin uski space bhi chala jayega */
+        /* visibility : hidden - content chala jayega lekin uski space nahi jayega */
+        
         .box1 {
-            /* display: none;
-            visibility: hidden; */
+            /* display: none;*/
+            /*  visibility: hidden; */
             
-        } 
+        }
+        .inline-box{
+            display: inline;
+            border: 2px solid black;    
+            padding: 10px;
+            margin: 20px;
+            background-color: lightgreen;
+            width: 150px;
+            height: 100px;
+        }
+        .inline-block-box{
+            display: inline-block;
+            border: 2px solid black;    
+            padding: 10px;
+            margin: 20px;
+            background-color: lightblue;
+            width: 150px;
+            height: 100px;
+        }
     </style>
 </head>
 
@@ -56,11 +75,13 @@
     <span>Boy</span>
 
     <h1> Display Inline vs Inline-block </h1>
-    <div class="inline">Inline box 1</div>
-    <div class="inline">Inline box 2</div>
-    <div class="inline">Inline box 3</div>
+    <div class="inline-box">Inline 1</div>
+    <div class="inline-box">Inline 2</div>
+    <div class="inline-box">Inline 3</div>
     <br>
-    
+    <div class="inline-block-box">Inline-block 1</div>
+    <div class="inline-block-box">Inline-block 2</div>
+    <div class="inline-block-box">Inline-block 3</div>
 </body>
 
 </html>
