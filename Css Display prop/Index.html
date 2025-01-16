@@ -14,6 +14,18 @@
 
         /* if your element is inline then padding top & margin top is not working 
         But if you want it at any cost then use "display : inline-block" .*/
+
+        /* inline -->
+        1. Can't set height and width 
+        2. Vertically padding and margins(top & bottom) are not working
+        3. But Horizontal padding and margins are worked .
+
+        inline-block -->
+        1. Can set height and width
+        2. Vertically padding and margins(top & bottom) are working
+        3. Horizontal padding and margins are worked .
+
+        */ 
         .box {
             border: 2px solid black;
             /* display: inline; */
@@ -42,6 +54,13 @@
 
     <span>I am a good</span>
     <span>Boy</span>
+
+    <h1> Display Inline vs Inline-block </h1>
+    <div class="inline">Inline box 1</div>
+    <div class="inline">Inline box 2</div>
+    <div class="inline">Inline box 3</div>
+    <br>
+    
 </body>
 
 </html>
