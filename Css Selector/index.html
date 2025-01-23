@@ -31,11 +31,12 @@
         /* .box:nth-child(odd){
             background-color: yellow;
         } */
-        .box:nth-last-child(1){
-            background-color: red;
-        }
 
-        /*hese pseudo-elements are often used 
+        /*.box:nth-last-child(1){
+            background-color: red;
+        }*/
+
+        /*These pseudo-elements are often used 
         for decorative purposes or to add additional 
         content without modifying the HTML structure.*/
         .boxes::before{
@@ -52,8 +53,13 @@
             background-color: black;
             color: aqua;
         }
+
         .box::first-letter{
             color: rgb(255, 128, 0);
+            font-size: 30px;
+        }
+        input::placeholder{
+            color: tomato;
         }
     </style>
 </head>
@@ -64,6 +70,7 @@
         <div  data-color="primary" class="box">Hii what about you</div>
         <div class="box">Hii am a Boy</div>
         <div class="box">Hii How are u </div>
+        <input type="text" placeholder="Enter your name">
     </div>
 </body>
 
