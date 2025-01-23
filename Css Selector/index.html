@@ -25,28 +25,36 @@
             padding-top: 45px;
         } */
 
-        .box:nth-child(even){
+        /*.box:nth-child(even){
             background-color: yellow;
         } */
         /* .box:nth-child(odd){
             background-color: yellow;
         } */
-        /*.box:nth-last-child(1){
+        .box:nth-last-child(1){
             background-color: red;
         }
+
+        /*hese pseudo-elements are often used 
+        for decorative purposes or to add additional 
+        content without modifying the HTML structure.*/
         .boxes::before{
             content: "Tarun is good";
+            color: blue;
         }
         .boxes::after{
             content: "His gaming is good";
+            color: seagreen;
         }
+        /*This allows you to customize the appearance 
+        of text when it is highlighted,*/
         ::selection{
             background-color: black;
             color: aqua;
         }
         .box::first-letter{
             color: rgb(255, 128, 0);
-        }*/
+        }
     </style>
 </head>
 <body>
