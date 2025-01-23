@@ -1,4 +1,4 @@
-<!--35 , Here we know about More Css Selectors-->
+<!-- 35 , Here we know about More Css Selectors-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,16 +10,21 @@
         /* .box:first-child{
             background-color: red;
         } */
+
         /* .box::first-line {
             background-color: red;
         } */
+
         /* .boxes *{
             color: blue;
             border: 2px solid black;
-        }
-        [data-color="primary"]{
+        } */
+
+        /* Grouping the selectors */
+        p, a, .box, [data-color="primary"]{
             padding-top: 45px;
         } */
+
         /* .box:nth-child(even){
             background-color: yellow;
         } */
@@ -44,7 +49,8 @@
 <body>
     <div class="boxes">
         <!-- <img src=""> -->
-        <div  data-color="Primary" class="box">Hii what about you</div>
+        <p>This is a Paragraph.</p> 
+        <div  data-color="primary" class="box">Hii what about you</div>
         <div class="box">Hii am a Boy</div>
         <div class="box">Hii How are u </div>
     </div>
