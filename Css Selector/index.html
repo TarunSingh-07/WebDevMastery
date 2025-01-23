@@ -21,14 +21,17 @@
         } */
 
         /* Grouping the selectors */
-        p, a, .box, [data-color="primary"]{
+        /* p, a, .box, [data-color="primary"]{
             padding-top: 45px;
         } */
 
-        /* .box:nth-child(even){
+        .box:nth-child(even){
             background-color: yellow;
         } */
-        .box:nth-last-child(1){
+        /* .box:nth-child(odd){
+            background-color: yellow;
+        } */
+        /*.box:nth-last-child(1){
             background-color: red;
         }
         .boxes::before{
@@ -43,13 +46,13 @@
         }
         .box::first-letter{
             color: rgb(255, 128, 0);
-        }
+        }*/
     </style>
 </head>
 <body>
     <div class="boxes">
         <!-- <img src=""> -->
-        <p>This is a Paragraph.</p> 
+        <!-- <p>This is a Paragraph.</p>  -->
         <div  data-color="primary" class="box">Hii what about you</div>
         <div class="box">Hii am a Boy</div>
         <div class="box">Hii How are u </div>
