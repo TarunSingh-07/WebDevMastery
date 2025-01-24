@@ -7,38 +7,78 @@
     <style>
         *{
             margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
         }
         nav{
             background-color: rgb(170, 51, 71);
             height: 70px;
+            position: sticky;
+            top: 0%;
         }
         .box1{
             background-color: green;
-            margin: 10px 15px;
-            padding: 40px 60px;
-            height: 70vh;
+            margin: 30px 50px;
+            padding: 30px 30px;
+            height: 80vh;
+            text-align: center;
         }
         .box2{
             background-color: palevioletred; 
+            height: 80vh;
+            width: 45%;
+            margin: 0px 12px;
             display: inline-block;
-            height: 40vh;
-            width: 45vw;
         }
         .box3{
             background-color: blue;
+            height: 80vh;
+            width: 45%;
+            margin: 0px 12px;
             display: inline-block;
-            height: 40vh;
-            width: 45vw;
+        }
+        .pointer{
+            height: 20px;
+            width: 20px;
+            border: 1px solid white;
+            border-radius: 50px;
+            background-color: red;
+            bottom: 190px;
+            right: 20px;
+            position: fixed;
+        }
+        .text-box{
+            border: 2px solid white;
+            /* padding: 30px;
+            margin: 30px 30px;*/
+            margin: 100px;
+            padding: 65px;
+            height: 50px;
+            border-radius: 25px;
+            color: white;
+        }
+        footer{
+            background-color: white;
+            height: 70px;
         }
     </style>
 </head>
 <body>
      <header>
         <nav></nav>
-        <div class="box1">
-            <div class="box2"></div>
-            <div class="box3"></div>
-        </div>
      </header>
+     <div class="box1">
+        <div class="box2"></div>
+        <div class="box3"></div>
+     </div>
+     <div class="pointer"></div>
+     <div class="text-box">
+        <p>Hii how are you. Welcome to my Web dev Mastery Course.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptate dolorum error provident quam, minima nostrum magnam eum officia mollitia molestiae quod praesentium dolorem, ipsam sint accusantium est maiores dolor.
+        </p>
+     </div>
+     <footer></footer>
 </body>
 </html>
