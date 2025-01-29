@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css Transforms</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .box{
             background-color: bisque;
             height: 60px;
@@ -22,7 +26,8 @@
             /* transform: skewX(40deg);*/
 
             /* transform: translatex(100%);*/ /* move 100% of its width */
-            
+
+            transform: translateY(100%) skewX(40deg) translateX(45%) scaleX(2);
             display: flex;
             align-items: center;
             justify-content: center;
