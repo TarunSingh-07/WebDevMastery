@@ -15,7 +15,7 @@
             width: 60px;
             border: 2px solid black;
             /*transform: rotate(40deg);*/
-            /*transform: rotate(0.25turn);*/  /* 360deg = 1 turn so 0.25 turn = 90deg*/
+            transform: rotate(0.125turn);  /* 360deg = 1 turn so 0.25 turn = 90deg*/
 
             /*transform: rotateX(40deg);*/ /* rotate along x-axis */
             /*transform: rotateY(40deg);
@@ -27,13 +27,13 @@
 
             /* transform: translatex(100%);*/ /* move 100% of its width */
 
-            transform: translateY(100%) skewX(40deg) translateX(45%) scaleX(2);
+            /*transform: translateY(100%) skewX(40deg) translateX(45%) scaleX(2);*/ /* multiple transform */
             display: flex;
             align-items: center;
             justify-content: center;
-            
         }
         .container{
+            margin: 55px;
             width: 100vw;
             height: 80vh;
             border: 2px solid purple;
