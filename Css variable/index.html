@@ -9,36 +9,39 @@
     <style>
         /* CSS Variable not only hold colors but also hold values (Background URLs,strings,numbers etc..) */
         /* root ke andar jo hota he wo global variable hota he */
-        :root{
+        :root {
             --color: rgb(129, 34, 219);
             --seccolor: rgb(30, 242, 231);
             --defpad: 22px;
             --defop: 0.4;
         }
-        *{
+
+        * {
             margin: 0px;
             padding: 0px;
         }
-        .nav{
+
+        .nav {
             background-color: var(--color);
         }
-        ul{
+
+        ul {
             display: flex;
         }
 
-        ul li{
+        ul li {
             opacity: var(--defop);
             list-style: none;
             padding: var(--defpad);
             border: 5px solid var(--seccolor);
         }
 
-        ul li:first-child{
+        ul li:first-child {
             --color: rgb(232, 133, 20);
-            background-color: var(--color,blue);
+            background-color: var(--color, blue);
         }
 
-        .container{
+        .container {
             background-color: var(--seccolor);
         }
     </style>
