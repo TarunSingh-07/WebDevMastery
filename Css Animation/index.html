@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Animations</title>
     <style>
-        .container{
+        .container {
             background-color: aquamarine;
             height: 80vh;
             width: 30vw;
         }
-        .box{
+
+        .box {
             width: 34px;
             height: 45px;
             /* animation: tarunKaAnimation;
@@ -23,36 +25,44 @@
 
             /* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
             animation: tarunKaAnimation 3s ease-in-out 3s 1,
-                       tarun2 3s ease-in-out 3s 1;
+                tarun2 3s ease-in-out 3s 1;
         }
-        @keyframes tarunKaAnimation{
-            from{
+
+        @keyframes tarunKaAnimation {
+            from {
                 background-color: red;
             }
-            to{
+
+            to {
                 transform: translateX(1000px);
                 background-color: yellow;
             }
         }
-        @keyframes tarun2{
-            0%{
+
+        @keyframes tarun2 {
+            0% {
                 transform: rotate(100deg);
             }
-            20%{
+
+            20% {
                 transform: rotate(200deg);
             }
-            50%{
+
+            50% {
                 transform: rotate(220deg);
             }
-            80%{
+
+            80% {
                 transform: rotate(300deg);
             }
-            100%{
+
+            100% {
                 transform: rotate(310deg);
             }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="box">
@@ -60,4 +70,5 @@
         </div>
     </div>
 </body>
+
 </html>
