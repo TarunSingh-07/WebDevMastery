@@ -46,7 +46,7 @@ nav button {
 }
 
 .hero {
-    font-family: "Martel Sans", sans-serif;
+    font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     color: white;
     height: 100%;
     display: flex;
@@ -54,4 +54,17 @@ nav button {
     justify-content: center;
     flex-direction: column;
     position: relative;
+    gap: 20px;
+}
+.hero :first-child{
+    font-weight: 900;
+    font-size: 56px;
+}
+.hero :nth-child(2){
+    font-weight: 500;
+    font-size: 20px;
+}
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
 }
