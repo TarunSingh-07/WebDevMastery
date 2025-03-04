@@ -1,16 +1,18 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 .main {
     background-image: url("assets/images/Background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: max(1500px,100vw);
+    background-size: max(1500px, 100vw);
     height: 80vh;
     position: relative;
 }
-.main .box{
+
+.main .box {
     height: 80vh;
     width: 100%;
     opacity: 0.44;
@@ -18,7 +20,8 @@
     position: absolute;
     top: 0%;
 }
-nav{
+
+nav {
     max-width: 80vw;
     margin: auto;
     justify-content: space-between;
@@ -26,17 +29,20 @@ nav{
     align-items: center;
     height: 53px;
 }
-nav img{
+
+nav img {
     color: red;
     width: 114px;
     position: relative;
     z-index: 10;
 }
-nav button{
+
+nav button {
     position: relative;
     z-index: 10;
 }
-.hero{
+
+.hero {
     height: 100%;
     display: flex;
     align-items: center;
