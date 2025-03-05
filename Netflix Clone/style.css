@@ -88,3 +88,25 @@ nav button {
                                           rgba(33, 13, 22, 1) 84%);
     /* border-radius: 50% 50% 0 0; */
 }
+.btn{
+    padding: 3px 10px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.main input{
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgba(22, 22, 22, 0.7);
+}
