@@ -5,13 +5,16 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: black;
+}
 
 .main {
     background-image: url("assets/images/Background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: max(1500px, 100vw);
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -46,7 +49,7 @@ nav button {
 }
 
 .hero {
-    font-family: "Martel Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-family: "Martel Sans", sans-serif;
     color: white;
     height: 100%;
     display: flex;
@@ -56,15 +59,17 @@ nav button {
     position: relative;
     gap: 20px;
 }
-.hero :first-child{
+.hero> :nth-child(1){
     font-weight: bolder;
     font-size: 48px;
+    /* padding: 0 400px; */
+    text-align: center;
 }
-.hero :nth-child(2){
+.hero>:nth-child(2){
     font-weight: 500;
     font-size: 20px;
 }
-.hero :nth-child(3){
+.hero> :nth-child(3){
     font-weight: 400;
     font-size: 16px;
 }
