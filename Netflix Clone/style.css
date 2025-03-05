@@ -57,8 +57,8 @@ nav button {
     gap: 20px;
 }
 .hero :first-child{
-    font-weight: 900;
-    font-size: 56px;
+    font-weight: bolder;
+    font-size: 48px;
 }
 .hero :nth-child(2){
     font-weight: 500;
