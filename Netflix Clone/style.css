@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@600&display=swap');
+
 * {
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: black;
 }
 
@@ -60,51 +62,59 @@ nav button {
     gap: 20px;
     padding: 0 30px;
 }
-.hero> :nth-child(1){
+
+.hero> :nth-child(1) {
     font-family: 'Popins', sans-serif;
     font-weight: bolder;
     font-size: 48px;
     /* padding: 0 400px; */
     text-align: center;
 }
-.hero>:nth-child(2){
+
+.hero>:nth-child(2) {
     font-weight: 500;
     font-size: 20px;
     text-align: center;
 }
-.hero> :nth-child(3){
+
+.hero> :nth-child(3) {
     font-weight: 400;
     font-size: 16px;
     text-align: center;
 }
-.separation{
+
+.separation {
     display: flex;
     height: 5px;
     /* background-color: rgb(177, 19, 14); */
     background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%,
-                                          rgba(184, 40, 105, 1),
-                                          rgba(229, 9, 20, 1),
-                                          rgba(184, 40, 105, 1), 
-                                          rgba(33, 13, 22, 1) 84%);
+            rgba(184, 40, 105, 1),
+            rgba(229, 9, 20, 1),
+            rgba(184, 40, 105, 1),
+            rgba(33, 13, 22, 1) 84%);
     /* border-radius: 50% 50% 0 0; */
 }
-.btn{
+
+.btn {
     padding: 3px 10px;
     font-weight: bold;
     background-color: white;
 }
-.btn-red-sm{
+
+.btn-red-sm {
     background-color: red;
     color: white;
 }
-.btn-red{
+
+.btn-red {
     background-color: red;
     color: white;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 18px;
 }
-.main input{
+
+.main input {
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 18px;
