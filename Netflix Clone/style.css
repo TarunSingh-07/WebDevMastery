@@ -118,5 +118,6 @@ nav button {
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 18px;
+    /* background-color: rgba(23, 23, 23, 0.2); */
     background-color: rgba(22, 22, 22, 0.7);
 }
