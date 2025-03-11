@@ -141,6 +141,17 @@ nav button {
 .first{
     display: flex;
     justify-content: center;
-    max-width: 50vw;
+    align-items: center;
+    max-width: 70vw;
     margin: auto;
+    color: white;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 30vw;
+}
+.secImg video{
+    position: absolute;
 }
