@@ -138,7 +138,7 @@ nav button {
     border: 1px solid rgba(239, 217, 217, 0.5);
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,12 +146,15 @@ nav button {
     margin: auto;
     color: white;
 }
-.secImg{
+
+.secImg {
     position: relative;
 }
-.secImg img{
+
+.secImg img {
     width: 30vw;
 }
-.secImg video{
+
+.secImg video {
     position: absolute;
 }
