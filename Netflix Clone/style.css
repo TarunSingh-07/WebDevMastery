@@ -162,15 +162,17 @@ nav button {
     top: 51px;
     right: 0px
 }
-.section.first > div{
+
+.section.first>div {
     display: flex;
     flex-direction: column;
 }
 
-section.first > div :nth-child(1){
+section.first>div :nth-child(1) {
     font-size: 48px;
     font-weight: bolder;
 }
-section.first > div :nth-child(2){
+
+section.first>div :nth-child(2) {
     font-size: 16px;
 }
