@@ -183,3 +183,8 @@ section.first>div :nth-child(1) {
 section.first>div :nth-child(2) {
     font-size: 18px;
 }
+.faqbox{
+    display: flex;
+    background-color: gray;
+    padding: 34px;
+}
