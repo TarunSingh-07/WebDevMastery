@@ -188,7 +188,10 @@ section.first>div :nth-child(2) {
     background: black;
     color: white;
     padding: 34px;
-    
+}
+
+.faqbox svg{
+    filter: invert(1);
 }
 
 .faq h2{
