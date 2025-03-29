@@ -218,4 +218,11 @@ section.first>div :nth-child(2) {
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
 }
