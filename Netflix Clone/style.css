@@ -208,10 +208,14 @@ section.first>div :nth-child(2) {
     margin: 34px auto;
     justify-content: space-between;
     cursor: pointer;
-    transition: all 1s ease-out;
+    transition: all 0.3s ease-in-out;
 }
 .faqbox:hover{
     /* background-color: rgb(184, 40, 105); */
     background-color: rgb(229, 9, 20);
     color: white;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
