@@ -34,12 +34,12 @@ nav {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    height: 62px;
+    height: 100px;
 }
 
 nav img {
     color: red;
-    width: 114px;
+    width: 130px;
     position: relative;
     z-index: 10;
 }
@@ -52,7 +52,7 @@ nav button {
 .hero {
     font-family: "Martel Sans", sans-serif;
     color: white;
-    height: calc(100% - 62px);
+    height: calc(100% - 100px);
     /* height: calc(100% -62px); */
     display: flex;
     align-items: center;
@@ -219,6 +219,10 @@ footer{
     color: white;
     max-width: 60vw;
     margin: auto;
+    padding: 20px 0;
+}
+footer .Questions{
+    padding: 34px 0;
 }
 .footer{
     display: grid;
@@ -226,11 +230,12 @@ footer{
     color: white;
 }
 .footer a{
-    text-decoration: none;
+    font-size: 14px;
     color: white;
 }
 
 .footer-item{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
