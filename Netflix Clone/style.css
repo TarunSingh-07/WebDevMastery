@@ -225,6 +225,10 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
 }
+.footer a{
+    text-decoration: none;
+    color: white;
+}
 
 .footer-item{
     display: flex;
