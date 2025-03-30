@@ -170,7 +170,7 @@ nav button {
     width: 26vw; */
 }
 
-.section.first>div {
+section.first>div {
     display: flex;
     flex-direction: column;
 }
