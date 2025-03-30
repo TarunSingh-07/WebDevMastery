@@ -169,9 +169,11 @@ nav button {
 
 .secImg video {
     position: absolute;
-    top: 70px;
+    /* top: 70px; */
+    top: 94px;
     right: 0px;
-    width: 555px;
+    /* width: 555px; */
+    width: 480px;
     /* position: absolute;
     top: 86px;
     right: 80px;
@@ -231,20 +233,22 @@ footer{
     padding: 20px 0;
 }
 
-@media screen and  (max-width: 1280px) {
-    .first{
-        flex-wrap: wrap;
-    }
-} 
-
 footer .Questions{
     padding: 34px 0;
 }
 .footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     color: white;
 }
+
+@media screen and  (max-width: 1280px) {
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+    }
+} 
 .footer a{
     font-size: 14px;
     color: white;
