@@ -150,11 +150,6 @@ nav button {
 
 }
 
-@media screen and  (max-width: 1280px) {
-    .first{
-        flex-wrap: wrap;
-    }
-} 
     
 .secImg {
     position: relative;
@@ -243,10 +238,25 @@ footer .Questions{
 }
 
 @media screen and  (max-width: 1280px) {
+    .first{
+        flex-wrap: wrap;
+    }
+    .secImg img {
+        width: 410px;
+    }
+    .secImg video {
+        /* width: 410px; */
+        width: 360px;
+        top: 88px;
+    }
+} 
+
+@media screen and  (max-width: 1280px) {
     .footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
         color: white;
+        gap: 29px;
     }
 } 
 .footer a{
