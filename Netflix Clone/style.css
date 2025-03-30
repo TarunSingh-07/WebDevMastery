@@ -281,6 +281,9 @@ footer .Questions{
     .faqbox {
         font-size: 21px;
     }
+    footer {
+        max-width: 90vw;
+    }
 } 
 
 /* This is for the footer */
