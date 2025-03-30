@@ -156,8 +156,6 @@ nav button {
     }
 } 
     
-
-
 .secImg {
     position: relative;
     z-index: 10;
@@ -173,6 +171,7 @@ nav button {
     position: absolute;
     top: 70px;
     right: 0px;
+    width: 555px;
     /* position: absolute;
     top: 86px;
     right: 80px;
@@ -231,6 +230,13 @@ footer{
     margin: auto;
     padding: 20px 0;
 }
+
+@media screen and  (max-width: 1280px) {
+    .first{
+        flex-wrap: wrap;
+    }
+} 
+
 footer .Questions{
     padding: 34px 0;
 }
