@@ -236,7 +236,7 @@ footer .Questions{
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     color: white;
 }
-
+/* This is for the Video for its responsive */
 @media screen and  (max-width: 1280px) {
     .first{
         flex-wrap: wrap;
@@ -245,12 +245,21 @@ footer .Questions{
         width: 410px;
     }
     .secImg video {
-        /* width: 410px; */
         width: 360px;
         top: 88px;
     }
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+    .hero>:nth-child(2) {
+        font-size: 16px;
+    }
+    .hero> :nth-child(3) {
+        font-size: 16px;
+    }
+    
 } 
-
+/* This is for the footer */
 @media screen and  (max-width: 1280px) {
     .footer{
         display: grid;
