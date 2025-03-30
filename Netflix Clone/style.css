@@ -284,6 +284,9 @@ footer .Questions{
     footer {
         max-width: 90vw;
     }
+    .footer-item{
+        align-items: center;
+    }
 } 
 
 /* This is for the footer */
