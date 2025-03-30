@@ -147,7 +147,16 @@ nav button {
     max-width: 70vw;
     margin: auto;
     color: white;
+
 }
+
+@media screen and  (max-width: 1280px) {
+    .first{
+        flex-wrap: wrap;
+    }
+} 
+    
+
 
 .secImg {
     position: relative;
@@ -173,6 +182,7 @@ nav button {
 section.first>div {
     display: flex;
     flex-direction: column;
+    padding: 34px 0;
 }
 
 section.first>div :nth-child(1) {
