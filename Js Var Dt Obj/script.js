@@ -13,7 +13,7 @@ console.log(typeof a, typeof b, typeof c)
 {
     // var is a global variable
     // var a = 21
-    
+
     // let is a block variable
     let a = 21
     console.log(a)
@@ -30,7 +30,7 @@ let z = 3.55
 const p = true
 let q = undefined
 let r = null
-console.log( x,  y,  z,  p,  q,  r)
+console.log(x, y, z, p, q, r)
 console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r)
 
 let o = {
