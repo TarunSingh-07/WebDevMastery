@@ -10,11 +10,11 @@ let grace = 2
 // console.log(age ** grace)
 // console.log(age % grace)
 
-if ((age+grace)>18){
+if ((age + grace) > 18) {
     console.log("You can Drive")
 }
 
-else{
+else {
     console.log("You cannot Drive")
 }
 
@@ -35,11 +35,11 @@ let age3 = 1
 
 if (age3 == 18) {
     console.log("You can Drive")
-} 
-else if (age3 == 0){
+}
+else if (age3 == 0) {
     console.log("Are you kidding !!!")
 }
-else if (age3 == 1){
+else if (age3 == 1) {
     console.log("Are you again kidding !!!")
 }
 else {
@@ -48,8 +48,9 @@ else {
 
 a = 6
 b = 8
-let c = a > b ? (a-b):(b-a) 
+let c = a > b ? (a - b) : (b - a)
 console.log(c)
+
 
 /*
 translate to : 
