@@ -15,7 +15,6 @@ if (isTrue) {
     console.log("Computer is not Blasting 🤖")
 }
 
-
 document.title = "Hey I am good"
 
 document.body.style.backgroundColor = "Violet"
