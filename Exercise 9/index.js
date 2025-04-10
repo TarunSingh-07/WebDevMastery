@@ -12,3 +12,9 @@ This faulty calculator does following:
 It performs wrong operation 10% of the times
 
 */
+
+console.log("Faulty Calculator")
+
+function faultyCalculator(num1, num2) {
+
+}
