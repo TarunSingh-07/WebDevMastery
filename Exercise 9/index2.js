@@ -46,7 +46,11 @@ if (random > 0.1){
 
 }
 
-// In without obj creation we use the === instead of == because == is used for type conversion and === is used for strict comparison
+/*
+  In without obj creation we use the === instead of == because
+  == is used for type conversion and
+  === is used for strict comparison
+*/
 
 console.log(`The result is ${a} ${c} ${b} : `, result)
 alert(`The result is ${result}`)
