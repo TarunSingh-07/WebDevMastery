@@ -17,15 +17,22 @@ The callback function can take three arguments: the current value, the index of 
 //     // console.log(value) // 1, 93, 5, 6, 88
 // })
 
-let object = {
-    a: 1,
-    b: 2,
-    c: 3
-}
 
-for (const key in object) {
-    if (Object.prototype.hasOwnProperty.call(object, key)) {
-        const element = object[key];
-        console.log(element) // 1, 2, 3
-    }
+// forin loop 
+
+// let object = {
+//     a: 1,
+//     b: 2,
+//     c: 3
+// }
+
+// for (const key in object) {
+//     if (Object.prototype.hasOwnProperty.call(object, key)) {
+//         const element = object[key];
+//         console.log(key, element) // 1, 2, 3
+//     }
+// }
+
+for (const iterator of a) {
+    console.log(iterator) // 1, 93, 5, 6, 88
 }
