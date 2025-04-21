@@ -4,9 +4,8 @@ let arr = [1, 2, 5 ,7, 8]
 // Strings are immutable and Arrays are mutable
 
 arr[0] = 2666
-console.log(arr)
+console.log(arr, typeof arr)
 console.log(arr.length)
-
 
 
 arr[0] = 2666
