@@ -8,6 +8,7 @@ console.log(arr)
 console.log(arr.length)
 
 
+
 arr[0] = 2666
 console.log(arr[0])
 console.log(arr[2])
