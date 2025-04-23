@@ -16,6 +16,7 @@ let newArr = arr.map((e) => {
     return e ** 2
 })
 
+
 console.log(newArr) // [1, 169, 25, 49, 121]
 
 // Filer method is used to create a new array by filtering the elements of the original array based on a condition.
