@@ -6,9 +6,12 @@ function factorial(number) {
     let c = arr.slice(1,).reduce((a, b)=> { 
         return a * b
     })
-    console.log(c) // 720
+    // console.log(c) // 720
+    return c
 }
-factorial(a)
+
+let result = factorial(a)
+console.log(`The factorial of ${a} is ${result}`)
 
 
 
@@ -16,4 +19,7 @@ factorial(a)
 /* reminder
 let arr = Array.from(Array(number).keys()) // [ 0, 1, 2, 3, 4, 5 ]
 console.log(arr) // [ 0, 1, 2, 3, 4, 5 ]
+
+we can write this also 
+let c = arr.slice(1,).reduce((a, b)=>  a * b ) // [ 1, 2, 3, 4, 5 ]
 */
