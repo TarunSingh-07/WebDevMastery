@@ -10,6 +10,7 @@ function factorial(number) {
     return c
 }
 
+
 let result = factorial(a)
 console.log(`The factorial of ${a} is ${result}`)
 
