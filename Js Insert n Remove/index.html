@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
     <div class="container">
-        <div class="box" style="display: flex;" data-creted="Tarun" data-concept="Equinox">Hey I am a box</div>
+        <div class="box" style="display: flex;" data-creted="Tarun" 
+        data-concept="Equinox">Hey I am a box</div>
         <div class="box">Hey I am a box</div>
     </div>
 
     <!-- <script src="script.js"></script> -->
-
+    <script>
+        let div = document.createElement("div")
+        div.innerHTML = "I have been inserted <b>by Tarun</b>"
+        div.setAttribute("class", "created")
+        document.querySelector(".container").append(div)
+    </script>
 </body>
 
 </html>
