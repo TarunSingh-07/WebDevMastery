@@ -1,24 +1,24 @@
 document.querySelector(".container").innerText
-'Hey I am a box\nHey I am a box'
+//'Hey I am a box\nHey I am a box'
 
 document.querySelector(".container").outer
-undefined
+//undefined
 
 document.querySelector(".container").outerHTML
-'<div class="container">\n        <div class="box">Hey I am a box</div>\n        <div class="box">Hey I am a box</div>\n    </div>'
+//'<div class="container">\n        <div class="box">Hey I am a box</div>\n        <div class="box">Hey I am a box</div>\n    </div>'
 
 document.querySelector(".container").tagName
-'DIV'
+//'DIV'
 
 document.querySelector(".container").nodeName
-'DIV'
+//'DIV'
 
 document.querySelector(".container").textContent
-'\n        Hey I am a box\n        Hey I am a box\n    '
+// '\n        Hey I am a box\n        Hey I am a box\n    '
 document.querySelector(".container").hidden
-false
+//false
 
 document.querySelector(".container").hidden = true
 
 document.querySelector(".container").innerHTML = "Hey I am Tarun"
-'Hey I am Tarun'
+//'Hey I am Tarun'
