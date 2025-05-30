@@ -26,6 +26,7 @@ let a = 1
 // }
 
 
+
 // i = 0
 // while (i<6) {
 //     console.log(i)

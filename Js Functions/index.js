@@ -27,5 +27,6 @@ func1(30)
 func1(66)
 func1(99)
 
+
 // nice("Tarun")
 // nice("Adi")
