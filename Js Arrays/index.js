@@ -56,6 +56,7 @@ let num = [1, 2, 3, 4, 5]
 num.splice(1, 2) // Removes 2 elements from index 1 -- 1 indexse start hoga and 2 elements remove karega
 console.log(num) // [1, 4, 5]
 
+
 let nums = [1, 2, 3, 4, 5]
 nums.slice(2) // Returns a new array from index 2 to the end of the array
 console.log(nums.slice(2)) // [3, 4, 5]
