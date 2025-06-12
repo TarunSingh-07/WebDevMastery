@@ -19,7 +19,7 @@ button.addEventListener("contextmenu", ()=>{
 })
 
 document.addEventListener("keydown", (e)=>{
-    console.log(e.key,e.keyCode) // It will log the key pressed and its keyCode
+    console.log(e, e.key,e.keyCode) // It will log the key pressed and its keyCode
 })
 
 
