@@ -6,11 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event bubbling</title>
     <style>
-        .child{
+        .child {
             color: red;
             background-color: lightblue;
-            padding: 34px;
-            margin: 34px;
+            padding: 14px;
+            margin: 14px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+
+        .childContainer {
+            background-color: lightgreen;
+            padding: 14px;
+            margin: 14px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+
+        .container {
+            background-color: rgb(211, 211, 67);
+            padding: 14px;
+            margin: 14px;
             border: 2px solid black;
             cursor: pointer;
         }
@@ -19,21 +35,35 @@
 
 <body>
     <div class="container">
-        <span class="childContainer">
+        <section class="childContainer">
             <div class="child">
                 I am a child
             </div>
-        </span>
+        </section>
     </div>
 
     <script>
-        document.querySelector(".child").addEventListener("click", () => {
+        /* Event Bubbling Example
+
+          When you click on the child element, the event bubbles up to the parent elements,
+          means when you click on the child element, the event is first captured by the child element, then it bubbles up to the childContainer, and finally to the container.
+
+          This is called event bubbling, and it is the default behavior of events in the DOM.
+          You can stop the event from bubbling up by using the stopPropagation() method on the event object.But takiing the event object (e) as an argument is important.
+
+        */
+        
+        document.querySelector(".child").addEventListener("click", (e) => {
+            e.stopPropagation();
             alert("Child was clicked");
         })
-        document.querySelector(".childContainer").addEventListener("click", () => {
+
+        document.querySelector(".childContainer").addEventListener("click", (e) => {
+            e.stopPropagation();
             alert("ChildContainer was clicked");
         })
-        document.querySelector(".container").addEventListener("click", () => {
+
+        document.querySelector(".container").addEventListener("click", (e) => {
             alert("container was clicked");
         })
 
