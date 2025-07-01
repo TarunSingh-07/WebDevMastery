@@ -7,17 +7,17 @@ function getData() {
 
 }
 
-async function main(){
+async function main() {
 
     console.log('Loading modules');
-    
+
     console.log('Do something else');
-    
+
     console.log('Load data');
     let data = await getData()
-    
+
     console.log(data);
-    
+
     console.log('process data');
     console.log('task 2');
 }
