@@ -6,6 +6,14 @@ function getData() {
     })
 
 }
+function getData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(455)
+        }, 3500);
+    })
+
+}
 
 async function main() {
 
