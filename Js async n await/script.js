@@ -1,18 +1,18 @@
-function getData() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(455)
-        }, 3500);
-    })
+// function getData() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve(455)
+//         }, 3500);
+//     })
 
-}
-function getData() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(455)
-        }, 3500);
-    })
-
+// }
+async function getData() {
+    // simulate getting data from a server
+    let x  = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+    let data = await x.json()
+    return data
+    // let data = await x.text()
+    // console.log(data);
 }
 
 async function main() {
