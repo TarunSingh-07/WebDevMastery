@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hacker's Terminal</title>
     <style>
-        body{
+        body {
             background-color: black;
             color: lime;
             font-family: 'Courier New', Courier, monospace;
@@ -32,7 +32,33 @@
     <div class="output"></div>
 
     <script>
-        const messages
+        const messages = [
+           "Initializing Hacking....",
+            "Reading your Files...",
+            "Password files Detected...",
+            "Sending all passwords and personal files to server...",
+            "Cleaning up..."
+        ]
+
+        const randomDelay = ()=> {
+            return new Promise((resolve, reject)=>{
+                const timeout = Math.random() *6 + 1 
+                setTimeout(()=>{
+                    resolve()
+                }, timeout * 1000)
+            })
+        }
+
+        for (const msg of messages){
+            await addItem(msg)
+        }
+
+        const addItem = async (msg) => {
+            await randomDelay()
+            let div = document.createElement('div')
+            div.innerHTML = msg
+            document.body.append(div)
+        }
     </script>
 </body>
 
