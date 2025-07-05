@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(6, 123, 6);
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Hacking Terminal</h2>
+    <div id="terminal"></div>
+
+    <script>
+        const message = [
+            "Initialized Hacking now reading your data",
+            "Accessing files",
+            "Decrypting files",
+            "Files decrypted successfully",
+            "Hacking complete. Your data is now compromised.",
+            "Exfiltrating data",
+            "Data exfiltrated successfully.",
+            "System compromised. Goodbye!"
+        ]
+
+        const terminal = document.getElementById('terminal')
+
+        /* const timeDelay = () => {
+            return new Promise ((resolve, reject) => {
+                const timeout = Math.random()*6 + 1
+                setTimeout(() => {
+                    resolve()
+                }, timeout * 1000)
+            })
+        }
+            */
+
+        const randomDelay = () => {
+            const timedelay = Math.random() * 6 + 1
+            return new Promise(resolve => setTimeout(resolve, timedelay * 1000))
+        }
+
+        const addMessageWithBlinkingDots = async (msg) => {
+
+            const div = document.createElement('div')
+            div.textContent = msg
+            terminal.appendChild(div)
+
+            let dots = ""
+            const interval = setInterval(() => {
+                dots = dots.length < 3 ? dots + "." : ""
+                div.textContent = msg + dots
+            }, 100)
+
+
+            await randomDelay()
+            clearInterval(interval)
+        }
+        async function main() {
+            await randomDelay()
+            for (const msg of message) {
+                await addMessageWithBlinkingDots(msg)
+            }
+
+            const done = document.createElement('div')
+            done.textContent = "✅ Hacking Simulation Complete"
+            terminal.appendChild(done)
+        }
+
+        main()
+    </script>
+</body>
+
+</html>
