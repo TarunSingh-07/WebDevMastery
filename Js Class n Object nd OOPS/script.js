@@ -34,12 +34,16 @@ class Lion extends Animal{
         console.log('Object is created and he is a lion...');
     }
     eats(){
+        super.eats()
         console.log('Kha rha hu roarrrr');
     }
 }
 
 let a = new Animal("Bunny")
-console.log(a);
+console.log(a)
 
 let l = new Lion('Shera')
-console.log(l);
+console.log(l)
+
+
+
