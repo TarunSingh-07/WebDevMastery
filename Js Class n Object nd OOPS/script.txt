@@ -1,0 +1,11 @@
+Object is created.....
+script.js:43 Animal {name: 'Bunny'}
+script.js:20 Object is created.....
+script.js:34 Object is created and he is a lion...
+script.js:46 Lion {name: 'Shera'}
+l instanceof Lion
+true
+l instanceof Animal
+true
+a instanceof Lion
+false
